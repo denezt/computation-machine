@@ -1,7 +1,7 @@
 <?php
 session_start();
 $status = $_SESSION["active"];
-$entry_password = "jk1665";
+$entry_password = "";
 $password = $_GET["password"];
 $logout = $_GET["logout"];
 $active=0;
